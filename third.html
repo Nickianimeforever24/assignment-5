@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <h1 id="pet"></h1>
+      <form>
+        <label for="uname">username:</label><br />
+        <input type="text" id="uname" name="uname" value="" /><br />
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" value="" /><br />
+        <label for="password">password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          value=""
+        /><br /><br />
+        <!-- <input type="submit" value="Submit" onclick="password()" /> -->
+        <button type="button" onclick="passwordCheck()">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
